@@ -1,0 +1,35 @@
+img {
+  width: 100%;
+}
+
+.skeleton-overview header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 200px;
+}
+
+.skeleton-overview header sl-skeleton:last-child {
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+.skeleton-overview sl-skeleton {
+  margin-bottom: 1rem;
+}
+
+.skeleton-overview header sl-skeleton:nth-child(1) {
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.skeleton-overview sl-skeleton:nth-child(3) {
+  width: 95%;
+}
+
+.skeleton-overview sl-skeleton:nth-child(4) {
+  width: 80%;
+}
